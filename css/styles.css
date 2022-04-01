@@ -1,0 +1,74 @@
+header {
+    margin-top: 7rem;
+}
+
+.fixed-top.scrolled {
+    background-color: #ffff !important;
+    transition: background-color 200ms linear;
+}
+
+.nav-link {
+    color: #020202 !important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.textPink {
+    color: #020202;
+    text-shadow: 1.5px 1.5px #8F95DB;
+}
+
+.bg-pink {
+    background: #020202
+}
+
+/* Google Map */
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+/* Form */
+.input-group-text {
+    padding: 8px !important;
+}
+
+.text-white-opacity {
+    color: #f2f2f2;
+}
+
+.margin-top-h1 {
+    margin-top: 22rem;
+}
+
+.anchorWhite {
+    color: #ffff;
+    text-decoration: none;
+  }
+
+.anchorWhite:hover {
+    color: #212529;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.breakLine {
+    width: 350px;
+    border-radius: 5px;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    height: 10px;
+    /* border-top: 5px solid #b43031; */
+  }
